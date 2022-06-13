@@ -19,10 +19,6 @@ function addBookToLibrary(title, author, pages, read) {
     myLibrary.push(newBook);
 }
 
-addBookToLibrary("hello1", "hhh", 55, true);
-addBookToLibrary("hello2", "ddfff", 55, true);
-addBookToLibrary("hello3", "dd", 55, true);
-
 function deleteBook() {
     myLibrary.splice(parseInt(this.getAttribute("index")), 1);
     displayBooks();
